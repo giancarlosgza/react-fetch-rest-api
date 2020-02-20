@@ -1,0 +1,48 @@
+@import '../base/variables';
+
+/* ---------------------------------------------------
+    NAVBAR
+----------------------------------------------------- */
+.navbar {
+  background-color: $theme-surface !important;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 14px;
+  transition: $transition-cubic-bezier;
+  box-shadow: $shadow-2dp;
+  z-index: 999;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $theme-primary;
+  font-family: $font-poppins;
+}
+
+.navbar .navbar-brand {
+  color: $theme-primary;
+  font-family: $font-poppins;
+  font-weight: bold;
+
+  &:hover {
+    color: $theme-primary-hover;
+  }
+
+  &:focus,
+  &:active {
+    color: $theme-primary-active;
+  }
+}
+
+.navbar a {
+  color: $theme-on-primary;
+
+  &:hover {
+    background-color: #bebebe1c;
+    border-radius: $border-radius-8;
+  }
+
+  &:focus,
+  &:active {
+    color: $theme-primary !important;
+  }
+}

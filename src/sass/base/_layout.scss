@@ -1,0 +1,66 @@
+@import '../base/variables';
+
+/* ---------------------------------------------------
+    GENERAL STYLES
+----------------------------------------------------- */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: $font-roboto;
+    color: $black;
+    background-color: $white;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* ---------------------------------------------------
+    COLORS
+----------------------------------------------------- */
+.bg-primary {
+    background-color: $theme-primary !important;
+    color: $theme-on-primary-inverse !important;
+}
+
+.bg-secondary {
+    background-color: $theme-secondary !important;
+    color: $theme-on-primary !important;
+}
+
+/* ---------------------------------------------------
+    BORDERS
+----------------------------------------------------- */
+.border-radius-4 {
+    border-radius: $border-radius-4 !important;
+}
+
+.border-radius-8 {
+    border-radius: $border-radius-8 !important;
+}
+
+.border-radius-12 {
+    border-radius: $border-radius-12 !important;
+}
+
+.border-radius-25 {
+    border-radius: $border-radius-25 !important;
+}
+
+.border-radius-50 {
+    border-radius: $border-radius-50 !important;
+}
+
+.translate-up {
+
+    &:hover {
+        transform: translate(0, -15px);
+        box-shadow: $shadow-4dp !important;
+    }
+}
+
+i.material-icons,
+i.material-icons-outlined {
+    vertical-align: middle;
+    display: inline-flex;
+}

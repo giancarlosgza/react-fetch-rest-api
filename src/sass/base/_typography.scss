@@ -1,0 +1,123 @@
+@import '../base/variables';
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+  line-height: 15px;
+  font-weight: 400;
+  color: $black;
+}
+
+h1 {
+  font-size: 40px;
+  letter-spacing: -1.5px;
+  font-weight: lighter;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 31px;
+  letter-spacing: -0.5px;
+  font-weight: lighter;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 25.92px;
+  letter-spacing: 0px;
+  font-weight: normal;
+  line-height: 32px;
+}
+
+h4 {
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+h5 {
+  font-size: 16px;
+  letter-spacing: 0px;
+  font-weight: normal;
+  line-height: 28px;
+}
+
+h6 {
+  font-size: 14.99px;
+  letter-spacing: 0.15px;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+p,
+a {
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+a {
+  color: #2e2e2e;
+  text-decoration: none !important;
+}
+
+a:hover {
+  color: $black;
+  text-decoration: none;
+}
+
+a:active,
+a:focus {
+  color: $black;
+  text-decoration: none;
+}
+
+.title {
+  font-weight: normal;
+  text-transform: initial;
+  letter-spacing: 0.5px;
+  line-height: 10px;
+}
+
+.subtitle {
+  font-weight: normal;
+  text-transform: initial;
+  letter-spacing: 0.15px;
+  line-height: 10px;
+  color: #333333;
+}
+
+.text-roboto {
+  font-family: $font-roboto;
+}
+
+.text-poppins {
+  font-family: $font-poppins;
+}
+
+.text-primary {
+  color: $theme-primary !important;
+}
+
+.text-secondary {
+  color: $theme-secondary !important;
+}
+
+.text-success {
+  color: $theme-success !important;
+}
+
+.text-warning {
+  color: $theme-warning !important;
+}
+
+.text-danger {
+  color: $theme-danger !important;
+}

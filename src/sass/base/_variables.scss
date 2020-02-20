@@ -1,0 +1,107 @@
+// Theme
+$theme-background: #fdfdfd;
+$theme-on-primary: #000000;
+$theme-on-primary-inverse: #ffffff;
+
+$theme-surface: #ffffff;
+$theme-surface-bottom: #334955;
+$theme-surface-1dp: #ffffff;
+$theme-surface-card-outline: #dadce0;
+$theme-on-surface: #757575;
+
+//  Basic colors
+$black: #000;
+$white: #fff;
+
+// Primary colors
+$theme-primary: #c9184d;
+$theme-primary-hover: #b41449;
+$theme-primary-active: #7c083f;
+$theme-secondary: #ffb171;
+$theme-secondary-hover: #fea15b;
+$theme-secondary-active: #f78649;
+$theme-success: #00c853;
+$theme-warning: #ffab00;
+$theme-danger: #d50000;
+
+// Light colors
+$theme-light-primary: #fbe3e9;
+$theme-light-primary-hover: #f5b8c8;
+$theme-light-primary-active: #ee8aa4;
+$theme-light-secondary: #fff2e5;
+$theme-light-secondary-hover: #ffddbe;
+$theme-light-secondary-active: #ffc796;
+
+// Fonts
+$font-roboto: 'Roboto',
+sans-serif;
+$font-poppins: 'Poppins',
+sans-serif;
+
+// Border radius
+$border-radius-4: 4px;
+$border-radius-8: 8px;
+$border-radius-12: 12px;
+$border-radius-25: 25px;
+$border-radius-50: 50px;
+
+// Transition
+$transition-cubic-bezier: all 0.3s cubic-bezier(.25, .8, .25, 1);
+
+// Elevations shadows
+$shadow-0dp: none;
+
+$shadow-1dp: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+
+$shadow-2dp: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+0px 2px 2px 0px rgba(0, 0, 0, 0.14),
+0px 3px 1px -2px rgba(0, 0, 0, 0.12);
+
+$shadow-3dp: 0px 1px 8px 0px rgba(0, 0, 0, 0.2),
+0px 3px 4px 0px rgba(0, 0, 0, 0.14),
+0px 3px 3px -2px rgba(0, 0, 0, 0.12);
+
+$shadow-4dp: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
+0px 4px 5px 0px rgba(0, 0, 0, 0.14),
+0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+
+$shadow-5dp: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+0px 5px 8px 0px rgba(0, 0, 0, 0.14),
+0px 1px 14px 0px rgba(0, 0, 0, 0.12);
+
+$shadow-6dp: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
+0px 6px 10px 0px rgba(0, 0, 0, 0.14),
+0px 1px 18px 0px rgba(0, 0, 0, 0.12);
+
+$shadow-7dp: 0px 4px 5px -2px rgba(0, 0, 0, 0.2),
+0px 7px 10px 1px rgba(0, 0, 0, 0.14),
+0px 2px 16px 1px rgba(0, 0, 0, 0.12);
+
+$shadow-8dp: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
+0px 8px 10px 1px rgba(0, 0, 0, 0.14),
+0px 3px 14px 2px rgba(0, 0, 0, 0.12);
+
+$shadow-9dp: 0px 5px 6px -3px rgba(0, 0, 0, 0.2),
+0px 9px 12px 1px rgba(0, 0, 0, 0.14),
+0px 3px 16px 2px rgba(0, 0, 0, 0.12);
+
+$shadow-10dp: 0px 6px 6px -3px rgba(0, 0, 0, 0.2),
+0px 10px 14px 1px rgba(0, 0, 0, 0.14),
+0px 4px 18px 3px rgba(0, 0, 0, 0.12);
+
+$shadow-11dp: 0px 6px 7px -4px rgba(0, 0, 0, 0.2),
+0px 11px 15px 1px rgba(0, 0, 0, 0.14),
+0px 4px 20px 3px rgba(0, 0, 0, 0.12);
+
+$shadow-12dp: 0px 7px 8px -4px rgba(0, 0, 0, 0.2),
+0px 12px 17px 2px rgba(0, 0, 0, 0.14),
+0px 5px 22px 4px rgba(0, 0, 0, 0.12);
+
+// Forms
+$theme-text-field-filled: #f3f3f3;
+$theme-text-field-filled-hover: #eeeeee;
+$theme-text-field-filled-active: #d1d1d1;
+$theme-text-field-outlined: #bbbbbb;
+$theme-text-field-outlined-hover: #000000;
