@@ -6,10 +6,10 @@
 .btn {
   padding: 8px;
   margin: 4px;
-  font-family: $font-roboto;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.08929em;
+  font-family: map-get($mdc-typography-styles-button, font-family);
+  font-weight: map-get($mdc-typography-styles-button, font-weight);
+  font-size: map-get($mdc-typography-styles-button, font-size);
+  letter-spacing: map-get($mdc-typography-styles-button, letter-spacing);
   /*height: 36px;*/
   background-color: $theme-surface;
   color: $theme-on-primary;

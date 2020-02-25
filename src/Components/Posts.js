@@ -17,8 +17,8 @@ class Posts extends React.Component {
         return (
             <div>
                 <div className="row mb-3">
-                    <div className="col-md-12 text-center">
-                        <h1 className="text-poppins font-weight-bold">Posts</h1>
+                    <div className="col-md-12 text-md-center">
+                        <h2 className="text-poppins font-weight-bold">Posts</h2>
                     </div>
                 </div>
                 <div className="row justify-content-center">
@@ -27,10 +27,10 @@ class Posts extends React.Component {
                         <div className="card card-outline translate-up mb-3">
                             <div className="card-body">
                                 <h5 className="card-title"><strong className="text-primary">{post.userId}</strong> | {post.title}</h5>
-                                <h6 className="card-subtitle mb-2 text-muted">{post.body}</h6>
+                                <h6 className="body-1 text-muted">{post.body}</h6>
                             </div>
                             <div className="card-footer text-right">
-                                <h6 className="text-muted">Hace 1 min.</h6>
+                                <h6 className="subtitle-1 text-muted">Hace 1 min.</h6>
                             </div>
                         </div>
                     </div>

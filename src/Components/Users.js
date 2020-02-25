@@ -7,7 +7,7 @@ class Users extends React.Component {
     }
     changeText = (text) => {
         this.setState({ text }); 
-    } 
+    }  
     componentDidMount() {
         fetch('http://jsonplaceholder.typicode.com/users')
         .then(res => res.json())
@@ -22,8 +22,8 @@ class Users extends React.Component {
         return (
             <div>
                 <div className="row mb-3">
-                    <div className="col-md-12 text-center">
-                        <h1 className="text-poppins font-weight-bold">Users </h1>
+                    <div className="col-md-12 text-md-center">
+                        <h2 className="text-poppins font-weight-bold">Users </h2>
                     </div>
                 </div>
                 <div className="row">
@@ -33,8 +33,8 @@ class Users extends React.Component {
                             <div className="card-body text-center">
                                 <img width="100px" src={`https://i.pravatar.cc/300?${user.id}.png`}
                                 alt={`${user.username}`} title={`${user.username}`} className="border-radius-50 mb-3"></img>
-                                <h5 className="card-title text-poppins font-weight-bold text-primary mb-0">{user.username}</h5>
-                                <h6 className="card-subtitle mb-2 text-muted text-lowercase">{user.email}</h6>
+                                <h5 className="font-weight-bold text-primary">{user.username}</h5>
+                                <h6 className="subtitle-1 text-muted text-lowercase">{user.email}</h6>
                                 <button className="btn btn-primary"
                                     onClick={ () => { this.changeText("Following")}  }> {text} </button>
                             </div>

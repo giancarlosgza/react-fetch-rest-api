@@ -38,6 +38,98 @@ sans-serif;
 $font-poppins: 'Poppins',
 sans-serif;
 
+// Type scale
+$mdc-typography-styles-headline1: (
+    font-family: unquote("Poppins"),
+    font-weight: lighter,
+    font-size: 93px,
+    letter-spacing: -1.5px,
+);
+
+$mdc-typography-styles-headline2: (
+    font-family: unquote("Poppins"),
+    font-weight: lighter,
+    font-size: 58px,
+    letter-spacing: -0.5px,
+);
+
+$mdc-typography-styles-headline3: (
+    font-family: unquote("Poppins"),
+    font-weight: normal,
+    font-size: 46px,
+    letter-spacing: 0px,
+);
+
+$mdc-typography-styles-headline4: (
+    font-family: unquote("Poppins"),
+    font-weight: normal,
+    font-size: 33px,
+    letter-spacing: 0.25px,
+);
+
+$mdc-typography-styles-headline5: (
+    font-family: unquote("Poppins"),
+    font-weight: normal,
+    font-size: 23px,
+    letter-spacing: 0px,
+);
+
+$mdc-typography-styles-headline6: (
+    font-family: unquote("Poppins"),
+    font-weight: medium,
+    font-size: 19px,
+    letter-spacing: 0.15px,
+);
+
+$mdc-typography-styles-subtitle1: (
+    font-family: unquote("Poppins"),
+    font-weight: normal,
+    font-size: 15px,
+    letter-spacing: 0.15px,
+);
+
+$mdc-typography-styles-subtitle2: (
+    font-family: unquote("Poppins"),
+    font-weight: medium,
+    font-size: 13px,
+    letter-spacing: 0.1px,
+);
+
+$mdc-typography-styles-body1: (
+    font-family: unquote("Roboto"),
+    font-weight: normal,
+    font-size: 16px,
+    letter-spacing: 0.5px,
+);
+
+$mdc-typography-styles-body2: (
+    font-family: unquote("Roboto"),
+    font-weight: normal,
+    font-size: 14px,
+    letter-spacing: 0.25px,
+);
+
+$mdc-typography-styles-button: (
+    font-family: unquote("Roboto"),
+    font-weight: bold,
+    font-size: 14px,
+    letter-spacing: 1.25px,
+);
+
+$mdc-typography-styles-caption: (
+    font-family: unquote("Roboto"),
+    font-weight: medium,
+    font-size: 10px,
+    letter-spacing: 0.4px,
+);
+
+$mdc-typography-styles-overline: (
+    font-family: unquote("Roboto"),
+    font-weight: normal,
+    font-size: 10px,
+    letter-spacing: 1.5px,
+);
+
 // Border radius
 $border-radius-4: 4px;
 $border-radius-8: 8px;

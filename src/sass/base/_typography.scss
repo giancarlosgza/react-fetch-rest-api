@@ -1,4 +1,14 @@
 @import '../base/variables';
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap');
+
+// TYPE SYSTEM
+body {
+  font-family: map-get($mdc-typography-styles-body1, font-family);
+  font-weight: map-get($mdc-typography-styles-body1, font-weight);
+  font-size: map-get($mdc-typography-styles-body1, font-size);
+  letter-spacing: map-get($mdc-typography-styles-body1, letter-spacing);
+}
 
 h1,
 h2,
@@ -8,51 +18,92 @@ h5,
 h6,
 p,
 a {
-  line-height: 15px;
-  font-weight: 400;
   color: $black;
 }
 
 h1 {
-  font-size: 40px;
-  letter-spacing: -1.5px;
-  font-weight: lighter;
-  line-height: 48px;
+  font-family: map-get($mdc-typography-styles-headline1, font-family);
+  font-weight: map-get($mdc-typography-styles-headline1, font-weight);
+  font-size: map-get($mdc-typography-styles-headline1, font-size);
+  letter-spacing: map-get($mdc-typography-styles-headline1, letter-spacing);
 }
 
 h2 {
-  font-size: 31px;
-  letter-spacing: -0.5px;
-  font-weight: lighter;
-  line-height: 40px;
+  font-family: map-get($mdc-typography-styles-headline2, font-family);
+  font-weight: map-get($mdc-typography-styles-headline2, font-weight);
+  font-size: map-get($mdc-typography-styles-headline2, font-size);
+  letter-spacing: map-get($mdc-typography-styles-headline2, letter-spacing);
 }
 
 h3 {
-  font-size: 25.92px;
-  letter-spacing: 0px;
-  font-weight: normal;
-  line-height: 32px;
+  font-family: map-get($mdc-typography-styles-headline3, font-family);
+  font-weight: map-get($mdc-typography-styles-headline3, font-weight);
+  font-size: map-get($mdc-typography-styles-headline3, font-size);
+  letter-spacing: map-get($mdc-typography-styles-headline3, letter-spacing);
 }
 
 h4 {
-  font-size: 18px;
-  letter-spacing: 0.2px;
-  font-weight: normal;
-  line-height: 28px;
+  font-family: map-get($mdc-typography-styles-headline4, font-family);
+  font-weight: map-get($mdc-typography-styles-headline4, font-weight);
+  font-size: map-get($mdc-typography-styles-headline4, font-size);
+  letter-spacing: map-get($mdc-typography-styles-headline4, letter-spacing);
 }
 
 h5 {
-  font-size: 16px;
-  letter-spacing: 0px;
-  font-weight: normal;
-  line-height: 28px;
+  font-family: map-get($mdc-typography-styles-headline5, font-family);
+  font-weight: map-get($mdc-typography-styles-headline5, font-weight);
+  font-size: map-get($mdc-typography-styles-headline5, font-size);
+  letter-spacing: map-get($mdc-typography-styles-headline5, letter-spacing);
 }
 
 h6 {
-  font-size: 14.99px;
-  letter-spacing: 0.15px;
-  font-weight: normal;
-  line-height: 24px;
+  font-family: map-get($mdc-typography-styles-headline6, font-family);
+  font-weight: map-get($mdc-typography-styles-headline6, font-weight);
+  font-size: map-get($mdc-typography-styles-headline6, font-size);
+  letter-spacing: map-get($mdc-typography-styles-headline6, letter-spacing);
+}
+
+.subtitle-1 {
+  font-family: map-get($mdc-typography-styles-subtitle1, font-family);
+  font-weight: map-get($mdc-typography-styles-subtitle1, font-weight);
+  font-size: map-get($mdc-typography-styles-subtitle1, font-size);
+  letter-spacing: map-get($mdc-typography-styles-subtitle1, letter-spacing);
+}
+
+.subtitle-2 {
+  font-family: map-get($mdc-typography-styles-subtitle2, font-family);
+  font-weight: map-get($mdc-typography-styles-subtitle2, font-weight);
+  font-size: map-get($mdc-typography-styles-subtitle2, font-size);
+  letter-spacing: map-get($mdc-typography-styles-subtitle2, letter-spacing);
+}
+
+.body-1 {
+  font-family: map-get($mdc-typography-styles-body1, font-family);
+  font-weight: map-get($mdc-typography-styles-body1, font-weight);
+  font-size: map-get($mdc-typography-styles-body1, font-size);
+  letter-spacing: map-get($mdc-typography-styles-body1, letter-spacing);
+}
+
+.body-2 {
+  font-family: map-get($mdc-typography-styles-body2, font-family);
+  font-weight: map-get($mdc-typography-styles-body2, font-weight);
+  font-size: map-get($mdc-typography-styles-body2, font-size);
+  letter-spacing: map-get($mdc-typography-styles-body2, letter-spacing);
+}
+
+.caption {
+  font-family: map-get($mdc-typography-styles-caption, font-family);
+  font-weight: map-get($mdc-typography-styles-caption, font-weight);
+  font-size: map-get($mdc-typography-styles-caption, font-size);
+  letter-spacing: map-get($mdc-typography-styles-caption, letter-spacing);
+}
+
+.overline {
+  font-family: map-get($mdc-typography-styles-overline, font-family);
+  font-weight: map-get($mdc-typography-styles-overline, font-weight);
+  font-size: map-get($mdc-typography-styles-overline, font-size);
+  letter-spacing: map-get($mdc-typography-styles-overline, letter-spacing);
+  text-transform: uppercase;
 }
 
 p,
@@ -86,14 +137,7 @@ a:focus {
   line-height: 10px;
 }
 
-.subtitle {
-  font-weight: normal;
-  text-transform: initial;
-  letter-spacing: 0.15px;
-  line-height: 10px;
-  color: #333333;
-}
-
+// TEXT VARIANTS AND COLORS
 .text-roboto {
   font-family: $font-roboto;
 }
